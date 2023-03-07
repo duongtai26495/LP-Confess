@@ -1,0 +1,80 @@
+.nav-item-account:hover #account_submenu{
+    height: fit-content;
+    width: fit-content;
+    border: solid .5px gray;
+    padding: 1rem;
+}
+
+ 
+:root{
+    --primary-color: #439A97;
+    --secondary-color:#62B6B7;
+  }
+  body{min-height: 100vh;}
+  .bg-primary{
+    background-color: var(--primary-color) !important;
+  }
+  
+  .bg-secondary{
+    background-color: var(--secondary-color) !important;
+  }
+  
+  .text-primary {
+    color: var(--primary-color) !important;
+  }
+  .text-secondary{
+    color: var(--secondary-color) !important;
+  }
+  .card-feature-image{
+    max-height: 300px;
+    min-height: 200px;
+  }
+  .article-image{
+    height: fit-content;
+    max-height: 70vh;
+    min-height: 300px;
+  }
+  .card-preview{
+    bottom:0px;
+  }
+  .card-avatar{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .custom-button{
+    transition: all 500ms;
+  }
+  
+  .nav-items:hover{color:var(--primary-color)}
+  @media only screen and (min-width: 1024px) {
+  .article-card:hover{transform: translateY(-10px) ;}
+  }
+  
+  
+  .loading_gif {
+    transition: ease-in-out; 
+  }
+  
+  .add_btn{
+    filter: drop-shadow(5px 5px 3px rgba(105, 105, 105, 0.3));
+  }
+
+  .account-drawer{
+    height: 100%;
+  }
+  .article-content-inner,
+  .new-art-innter {
+    z-index: 90;
+  }
+  #account_submenu{z-index: 100;}
+
+  .article-content-inner .feature-image {
+    max-height: fit-content;
+  }
+  @media only screen and (min-width: 1024px){
+    .article-content-inner,
+    .new-art-innter{
+      max-height: 90%;
+    }
+  }
